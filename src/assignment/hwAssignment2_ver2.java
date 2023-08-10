@@ -2,12 +2,16 @@ package assignment;
 import java.io.*; 
 import java.util.*; 
 
+/**
+ * Version 2 
+ * it does not use any array nor class
+ */
 public class hwAssignment2_ver2 {
 
 	public static void main(String[] args) throws IOException {
 		Scanner master = new Scanner (new File("master.txt")).useDelimiter("\\s*,\\s*");
 		Scanner transaction = new Scanner (new File("transaction.txt")); 
-		PrintWriter output = new PrintWriter (new File ("output_hw2.txt")); 
+		PrintWriter output = new PrintWriter (new File ("output_hw2_ver2.txt")); 
 		
 		char type; 
 		int idRunning; 
@@ -32,9 +36,16 @@ public class hwAssignment2_ver2 {
 				
 			}
 		}
+		printBalanceDue(balanceDue, output);
 		output.close();
 	}
 	
+	/**
+	 * print the next customer data from the master file
+	 * @param input
+	 * @param output
+	 * @return
+	 */
 	static int printMaster(Scanner input, PrintWriter output) {
 		int id = input.nextInt();  
 		String name = input.next();
@@ -43,6 +54,12 @@ public class hwAssignment2_ver2 {
 		return id; 
 	}
 	
+	/**
+	 * print the previous balance that was stored in the master file
+	 * @param input
+	 * @param output
+	 * @return
+	 */
 	static double printBalancePre(Scanner input, PrintWriter output) {
 		double balancePre = input.nextDouble(); 
 		output.printf("Transaction Number\tPrevious Balance\t$%10.2f\n", balancePre);
@@ -50,7 +67,13 @@ public class hwAssignment2_ver2 {
 		return balancePre; 
 	}
 	
-	
+	/**
+	 * process and print data from a line of String from the transaction file
+	 * if the first char is 'O'
+	 * @param input
+	 * @param output
+	 * @return
+	 */
 	static double printOrder(Scanner input, PrintWriter output) {
 		Scanner line = new Scanner(input.nextLine());	
 		
@@ -70,6 +93,13 @@ public class hwAssignment2_ver2 {
 		return amount; 
 	}
 	
+	/**
+	 * process and print data from a line of String from the transaction file
+	 * if the first char is 'P'
+	 * @param input
+	 * @param output
+	 * @return
+	 */
 	static double printPayment(Scanner input, PrintWriter output) {
 		Scanner line = new Scanner(input.nextLine());
 		int num = line.nextInt();
@@ -84,6 +114,11 @@ public class hwAssignment2_ver2 {
 		return amount; 
 	}
 	
+	/**
+	 * print the balance due for a customer
+	 * @param balanceDue
+	 * @param output
+	 */
 	static void printBalanceDue(double balanceDue, PrintWriter output) {
 		output.printf("\t\t\tBalance Due\t\t$%10.2f\n\n-----\n", balanceDue);
 	}
