@@ -1,0 +1,101 @@
+Bella W's LLC.      	0001
+
+Transaction Number	Previous Balance	$  78836.64
+0001			payment        		$   2687.34
+0002			raspberry*67   		$    836.83
+0003			payment        		$   2603.81
+0004			payment        		$   5243.15
+0005			avocado*79     		$   1402.25
+			Balance Due		$  70541.42
+
+-----
+Julian A's Inc.     	0002
+
+Transaction Number	Previous Balance	$  95147.49
+0006			raspberry*12   		$    127.40
+0007			payment        		$   5760.45
+0008			avocado*89     		$   1579.75
+0009			banana*13      		$     64.87
+0010			payment        		$    486.51
+0011			payment        		$   7405.41
+0012			banana*47      		$    164.17
+			Balance Due		$  83431.31
+
+-----
+Dorothy E's Ltd.    	0003
+
+Transaction Number	Previous Balance	$  47137.79
+0013			apple*64       		$    287.78
+0014			banana*76      		$    341.32
+0015			raspberry*22   		$    274.78
+0016			apple*56       		$    296.24
+0017			raspberry*9    		$     95.55
+0018			orange*89      		$    226.95
+0019			payment        		$    607.46
+0020			payment        		$    664.47
+			Balance Due		$  47388.47
+
+-----
+Bella H's Inc.      	0004
+
+Transaction Number	Previous Balance	$  28969.92
+0021			payment        		$    975.81
+0022			banana*87      		$    434.13
+0023			orange*87      		$    188.57
+0024			raspberry*13   		$    162.37
+0025			avocado*17     		$    211.23
+0026			raspberry*27   		$    286.65
+			Balance Due		$  29277.05
+
+-----
+Karen E's Co.       	0005
+
+Transaction Number	Previous Balance	$  76624.34
+0027			payment        		$   9111.67
+0028			avocado*3      		$     39.94
+0029			avocado*25     		$    443.75
+0030			apple*9        		$     47.61
+0031			orange*51      		$    123.55
+			Balance Due		$  68167.52
+
+-----
+Bella W's Corp.     	0006
+
+Transaction Number	Previous Balance	$  90901.06
+0032			apple*14       		$     74.06
+0033			raspberry*66   		$    783.12
+0034			apple*77       		$    407.33
+0035			payment        		$   2371.38
+0036			payment        		$   1599.02
+0037			orange*27      		$     55.08
+			Balance Due		$  88250.25
+
+-----
+Dorothy L's Ltd.    	0007
+
+Transaction Number	Previous Balance	$  43891.98
+0038			orange*78      		$    159.12
+0039			orange*12      		$     30.60
+0040			orange*94      		$    239.70
+			Balance Due		$  44321.40
+
+-----
+Brian L's Ltd.      	0008
+
+Transaction Number	Previous Balance	$  25294.91
+0041			payment        		$   7657.54
+0042			apple*100      		$    529.00
+0043			payment        		$   1627.59
+0044			payment        		$   3030.78
+0045			avocado*48     		$    852.00
+0046			apple*84       		$    377.71
+0047			orange*71      		$    181.05
+			Balance Due		$  14918.76
+
+-----
+Karen M's Ltd.      	0009
+
+Transaction Number	Previous Balance	$  92808.98
+0048			raspberry*4    		$     49.96
+0049			payment        		$   4926.62
+0050			payment        		$   5633.46
